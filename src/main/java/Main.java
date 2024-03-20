@@ -8,10 +8,10 @@ public class Main {
             numbers[i] = input.nextInt();
         }
         input.close();
-        int min = numbers[0]; // Assume the first number is the smallest
+        int min = numbers[0]; 
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] < min) {
-                min = numbers[i]; // Update min if a smaller number is found
+                min = numbers[i]; 
             }
         }
         System.out.println("Najmniejsza liczba to: " + min);
